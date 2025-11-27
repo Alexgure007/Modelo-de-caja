@@ -1,0 +1,71 @@
+/* ===== Estilos generales ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== Main ===== */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== Caja de cada robot ===== */
+.robot {
+  background-color: #ffffff;
+  border: 2px solid #ffcc00; /* MODELO DE CAJA: borde */
+  border-radius: 10px;
+  padding: 15px;            /* MODELO DE CAJA: padding */
+  margin-bottom: 20px;      /* MODELO DE CAJA: margin */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+  display: flex;
+  gap: 15px;
+}
+
+/* Imagen del robot */
+.robot img {
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Titulos */
+.robot h3 {
+  margin-top: 0;
+}
+
+/* Parrafos */
+.robot p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
